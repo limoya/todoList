@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import Store from '../store'
+  import Store from '../store';
   export default {
     name: "tolist",
     data () {
@@ -21,6 +21,7 @@
         title: 'Todo List For Limo',
         list: Store.fetch(),
         newItem: '',
+        wangling: '',
       }
     },
     watch: {
