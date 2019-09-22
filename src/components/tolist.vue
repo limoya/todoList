@@ -21,7 +21,6 @@
         title: 'Todo List For Limo',
         list: Store.fetch(),
         newItem: '',
-        wangling: '',
       }
     },
     watch: {
